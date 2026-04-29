@@ -58,3 +58,27 @@ footer {
   color: #666;
   font-size: 0.9rem;
 }
+
+/* Home page intro */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.intro img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 2%;
+  flex-shrink: 0;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.intro-text p {
+  margin-bottom: 0.75rem;
+}
