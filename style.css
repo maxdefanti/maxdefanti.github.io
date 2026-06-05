@@ -82,3 +82,40 @@ footer {
 .intro-text p {
   margin-bottom: 0.75rem;
 }
+
+/* News section */
+.news {
+  margin-top: 2rem;
+}
+
+.news h2 {
+  margin-bottom: 0.75rem;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news li {
+  display: flex;
+  align-items: baseline;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.news-dash {
+  white-space: nowrap;
+}
+
+.news-text {
+  flex: 1;
+  margin-left: 0.4rem;
+}
+
+.news-date {
+  font-weight: 600;
+  color: #444;
+  min-width: 7rem;
+  display: inline-block;
+}
