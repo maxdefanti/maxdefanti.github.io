@@ -116,6 +116,8 @@ footer {
 .news-date {
   font-weight: 600;
   color: #444;
-  min-width: 7rem;
+  min-width: 9rem;
+  flex-shrink: 0;
+  white-space: nowrap;
   display: inline-block;
 }
