@@ -75,6 +75,34 @@ footer {
   flex-shrink: 0;
 }
 
+.intro-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  flex-shrink: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.9rem;
+}
+
+.social-links a {
+  color: #444;
+  display: flex;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+
+.social-links svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
 .intro-text {
   max-width: 500px;
 }
